@@ -1,0 +1,27 @@
+{
+  "name": "app1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-messages": "*",
+    "express-session": "^1.16.2",
+    "express-validator": "^4.3.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "~1.9.1",
+    "multer": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "serve-favicon": "^2.5.0"
+  }
+}
